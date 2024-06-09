@@ -50,8 +50,6 @@ let options = {
   }
 };
 
-flatpickr(timeInput, options);
-
 startBtn.addEventListener('click', () => {
   if (interval) clearInterval(interval);
   startBtn.setAttribute('disabled', '');
@@ -92,3 +90,5 @@ function convertMs(ms) {
       minutesValue.textContent = String(minutes).padStart(2, '0');
       secondsValue.textContent = String(seconds).padStart(2, '0');
 };
+
+flatpickr(timeInput, options);

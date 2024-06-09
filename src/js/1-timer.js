@@ -27,6 +27,7 @@ let options = {
     if (userSelectedDate < new Date()) {
       startBtn.setAttribute('disabled', '');
       startBtn.classList.remove('right-date');
+      
       iziToast.error({
         message: 'Please choose a date in the future',
         position: 'topRight',

@@ -21,7 +21,7 @@ inputElem.addEventListener("submit", (event)=>{
   promise
   .then(delay=>{
     iziToast.success({
-    message: `Fulfilled promise in ${delay}ms`,
+    message: `✅ Fulfilled promise in ${delay}ms`,
     messageColor: '#FFFFFF',
     messageSize: '16',
     backgroundColor: '#59A10D',
@@ -34,7 +34,7 @@ inputElem.addEventListener("submit", (event)=>{
   })
   }).catch(delay=>{
     iziToast.error({
-    message: `Rejected promise in ${delay}ms`,
+    message: `❌ Rejected promise in ${delay}ms`,
     messageColor: '#FFFFFF',
     messageSize: '16',
     backgroundColor: '#EF4040',

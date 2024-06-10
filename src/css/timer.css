@@ -2,12 +2,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-section {
-  background-color: #fff;
-  padding-top: 36px;
-  padding-left: 156px;
-}
-
 button[data-start] {
   border: none;
   border-radius: 8px;
@@ -66,6 +60,7 @@ button.right-date:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .value {
@@ -76,6 +71,6 @@ button.right-date:hover {
 
 .label {
   text-transform: uppercase;
-
+  font-size: 16px;
 }
 
